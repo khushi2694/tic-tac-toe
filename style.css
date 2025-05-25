@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.col{
+     border: 2px solid rgb(192, 70, 9);
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: rgb(255, 255, 0);
+    cursor: pointer;
+    
+
+}
+.col:hover {
+  background-color: #e554ff; 
+  transform: scale(1.05);
+}
+
+
+
